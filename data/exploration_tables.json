@@ -1,0 +1,130 @@
+{
+  "schema": "exploration.tables.v1",
+  "entries": [
+    {
+      "id": "forest_hidden_cache",
+      "biomes": ["temperate_forest"],
+      "slots": ["entrance","aftermath"],
+      "min_level": 1,
+      "max_level": 6,
+      "weight": 1.5,
+      "tags": ["secret","loot"],
+      "environment_tags": ["vegetation"],
+      "award_loot": true,
+      "loot_rolls": 2,
+      "notes": "Hidden stash beneath roots or fallen tree."
+    },
+    {
+      "id": "forest_overgrown_ruin",
+      "biomes": ["temperate_forest"],
+      "slots": ["setback"],
+      "min_level": 3,
+      "max_level": 10,
+      "weight": 1.1,
+      "tags": ["ruins","history"],
+      "environment_tags": ["ancient"],
+      "award_loot": true,
+      "loot_rolls": 1,
+      "notes": "Crumbling structure reveals clues to past inhabitants."
+    },
+    {
+      "id": "wetlands_lost_path",
+      "biomes": ["wetlands"],
+      "slots": ["setback"],
+      "min_level": 2,
+      "max_level": 12,
+      "weight": 1.2,
+      "tags": ["navigation","hazard"],
+      "environment_tags": ["marsh","fog"],
+      "award_loot": false,
+      "notes": "Party must relocate safe ground or risk sinking terrain."
+    },
+    {
+      "id": "wetlands_sunken_relic",
+      "biomes": ["wetlands"],
+      "slots": ["aftermath"],
+      "min_level": 4,
+      "max_level": 16,
+      "weight": 0.9,
+      "tags": ["ancient","loot"],
+      "environment_tags": ["water"],
+      "award_loot": true,
+      "loot_rolls": 2,
+      "notes": "An old relic lies beneath murky water, requiring careful retrieval."
+    },
+    {
+      "id": "grassland_migration_trail",
+      "biomes": ["grassland"],
+      "slots": ["entrance"],
+      "min_level": 1,
+      "max_level": 8,
+      "weight": 1.4,
+      "tags": ["wildlife","tracking"],
+      "environment_tags": ["open_field"],
+      "award_loot": false,
+      "notes": "Following giant herd prints reveals safe routes and predators."
+    },
+    {
+      "id": "highland_cliff_passage",
+      "biomes": ["highland","mountain"],
+      "slots": ["setback"],
+      "min_level": 4,
+      "max_level": 14,
+      "weight": 1.3,
+      "tags": ["hazard","navigation"],
+      "environment_tags": ["cliff","wind"],
+      "award_loot": false,
+      "notes": "A narrow mountain ledge requires skillful progress."
+    },
+    {
+      "id": "mountain_hidden_cave",
+      "biomes": ["mountain"],
+      "slots": ["aftermath"],
+      "min_level": 5,
+      "max_level": 20,
+      "weight": 1.0,
+      "tags": ["shelter","secret"],
+      "environment_tags": ["rocky"],
+      "award_loot": true,
+      "loot_rolls": 2,
+      "notes": "A cave provides shelter and possible treasure or danger clues."
+    },
+    {
+      "id": "desert_stormfront",
+      "biomes": ["desert"],
+      "slots": ["setback"],
+      "min_level": 3,
+      "max_level": 20,
+      "weight": 1.2,
+      "tags": ["weather","hazard"],
+      "environment_tags": ["heat","storm"],
+      "award_loot": false,
+      "notes": "A sandstorm threatens; finding cover becomes essential."
+    },
+    {
+      "id": "ocean_flotsam_search",
+      "biomes": ["ocean","beach"],
+      "slots": ["entrance","aftermath"],
+      "min_level": 1,
+      "max_level": 10,
+      "weight": 1.3,
+      "tags": ["salvage","loot"],
+      "environment_tags": ["shore"],
+      "award_loot": true,
+      "loot_rolls": 1,
+      "notes": "Driftwood and wreckage wash ashore with potential valuables."
+    },
+    {
+      "id": "deep_ocean_abyss_glow",
+      "biomes": ["deep_ocean"],
+      "slots": ["aftermath"],
+      "min_level": 6,
+      "max_level": 20,
+      "weight": 0.8,
+      "tags": ["mystery","hazard"],
+      "environment_tags": ["depths"],
+      "award_loot": false,
+      "notes": "Strange glowing shapes suggest ancient underwater structures."
+    }
+  ]
+}

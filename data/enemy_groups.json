@@ -1,0 +1,257 @@
+{
+  "schema": "enemy.groups.v1",
+  "groups": [
+    {
+      "id": "wild_beasts_pack_low",
+      "faction": "wild_beasts",
+      "enemies": [
+        { "monster_id": "wolf", "count": { "min": 3, "max": 6 } },
+        { "monster_id": "hawk_swarm", "count": { "min": 0, "max": 1 } }
+      ]
+    },
+    {
+      "id": "wild_beasts_pack_mid",
+      "faction": "wild_beasts",
+      "enemies": [
+        { "monster_id": "dire_wolf", "count": { "min": 1, "max": 3 } },
+        { "monster_id": "wolf", "count": { "min": 2, "max": 4 } }
+      ]
+    },
+    {
+      "id": "wild_beasts_apex",
+      "faction": "wild_beasts",
+      "enemies": [
+        { "monster_id": "alpha_predator", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "giant_bear", "count": { "min": 0, "max": 1 } }
+      ]
+    },
+
+    {
+      "id": "goblin_foragers",
+      "faction": "goblin_clan",
+      "enemies": [
+        { "monster_id": "goblin", "count": { "min": 4, "max": 8 } },
+        { "monster_id": "goblin_hunter", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "goblin_raiding_party",
+      "faction": "goblin_clan",
+      "enemies": [
+        { "monster_id": "goblin", "count": { "min": 5, "max": 8 } },
+        { "monster_id": "goblin_brutal", "count": { "min": 1, "max": 2 } },
+        { "monster_id": "goblin_shaman", "count": { "min": 0, "max": 1 } }
+      ]
+    },
+    {
+      "id": "goblin_warlord_cadre",
+      "faction": "goblin_clan",
+      "enemies": [
+        { "monster_id": "goblin_warlord", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "goblin_brutal", "count": { "min": 2, "max": 3 } },
+        { "monster_id": "goblin_shaman", "count": { "min": 1, "max": 1 } }
+      ]
+    },
+
+    {
+      "id": "orc_skirmishers",
+      "faction": "orc_war_tribe",
+      "enemies": [
+        { "monster_id": "orc_raider", "count": { "min": 3, "max": 5 } },
+        { "monster_id": "orc_grunt", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "orc_battle_team",
+      "faction": "orc_war_tribe",
+      "enemies": [
+        { "monster_id": "orc_grunt", "count": { "min": 3, "max": 5 } },
+        { "monster_id": "orc_berserker", "count": { "min": 1, "max": 2 } },
+        { "monster_id": "orc_warmage", "count": { "min": 0, "max": 1 } }
+      ]
+    },
+    {
+      "id": "orc_warchief_guard",
+      "faction": "orc_war_tribe",
+      "enemies": [
+        { "monster_id": "orc_warchief", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "orc_berserker", "count": { "min": 2, "max": 3 } },
+        { "monster_id": "orc_warmage", "count": { "min": 1, "max": 1 } }
+      ]
+    },
+
+    {
+      "id": "undead_roamers",
+      "faction": "undying_host",
+      "enemies": [
+        { "monster_id": "skeleton", "count": { "min": 4, "max": 8 } },
+        { "monster_id": "zombie", "count": { "min": 1, "max": 3 } }
+      ]
+    },
+    {
+      "id": "undead_stalkers",
+      "faction": "undying_host",
+      "enemies": [
+        { "monster_id": "ghoul", "count": { "min": 2, "max": 4 } },
+        { "monster_id": "skeleton", "count": { "min": 2, "max": 4 } }
+      ]
+    },
+    {
+      "id": "undead_elite_patrol",
+      "faction": "undying_host",
+      "enemies": [
+        { "monster_id": "wight", "count": { "min": 1, "max": 2 } },
+        { "monster_id": "ghoul", "count": { "min": 1, "max": 3 } },
+        { "monster_id": "bone_knight", "count": { "min": 0, "max": 1 } }
+      ]
+    },
+
+    {
+      "id": "bandit_scouts",
+      "faction": "roadside_bandits",
+      "enemies": [
+        { "monster_id": "bandit", "count": { "min": 3, "max": 6 } },
+        { "monster_id": "bandit_skirmisher", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "bandit_fire_team",
+      "faction": "roadside_bandits",
+      "enemies": [
+        { "monster_id": "bandit_enforcer", "count": { "min": 1, "max": 3 } },
+        { "monster_id": "bandit_pyro", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "bandit_captain_guard",
+      "faction": "roadside_bandits",
+      "enemies": [
+        { "monster_id": "bandit_captain", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "bandit_enforcer", "count": { "min": 2, "max": 3 } }
+      ]
+    },
+
+    {
+      "id": "cult_shore_patrol",
+      "faction": "drowned_cult",
+      "enemies": [
+        { "monster_id": "cult_acolyte", "count": { "min": 2, "max": 4 } },
+        { "monster_id": "cult_follower", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "cult_blades",
+      "faction": "drowned_cult",
+      "enemies": [
+        { "monster_id": "cult_blade", "count": { "min": 2, "max": 3 } },
+        { "monster_id": "cult_follower", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "cult_prophet_guard",
+      "faction": "drowned_cult",
+      "enemies": [
+        { "monster_id": "cult_prophet", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "cult_mystic", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+
+    {
+      "id": "tidespawn_reef_swarm",
+      "faction": "tidespawn",
+      "enemies": [
+        { "monster_id": "krill_swarm", "count": { "min": 2, "max": 4 } },
+        { "monster_id": "reef_serpent", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "tidespawn_siren_pack",
+      "faction": "tidespawn",
+      "enemies": [
+        { "monster_id": "deep_siren", "count": { "min": 1, "max": 2 } },
+        { "monster_id": "reef_serpent", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "tidespawn_lead_behemoth",
+      "faction": "tidespawn",
+      "enemies": [
+        { "monster_id": "leviathan_spawn", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "tide_horror", "count": { "min": 1, "max": 1 } }
+      ]
+    },
+
+    {
+      "id": "reaver_sand_skirmish",
+      "faction": "desert_reavers",
+      "enemies": [
+        { "monster_id": "sand_stalker", "count": { "min": 2, "max": 4 } },
+        { "monster_id": "dune_raider", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "reaver_scorpion_guard",
+      "faction": "desert_reavers",
+      "enemies": [
+        { "monster_id": "glass_scorpion", "count": { "min": 1, "max": 2 } },
+        { "monster_id": "sand_stalker", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "reaver_tyrant_host",
+      "faction": "desert_reavers",
+      "enemies": [
+        { "monster_id": "sand_tyrant", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "dune_raider", "count": { "min": 2, "max": 3 } }
+      ]
+    },
+
+    {
+      "id": "legion_mountain_patrol",
+      "faction": "stone_legion",
+      "enemies": [
+        { "monster_id": "mountain_hunter", "count": { "min": 2, "max": 3 } },
+        { "monster_id": "avalanche_ogre", "count": { "min": 0, "max": 1 } }
+      ]
+    },
+    {
+      "id": "legion_construct_guard",
+      "faction": "stone_legion",
+      "enemies": [
+        { "monster_id": "rock_sentinel", "count": { "min": 1, "max": 2 } },
+        { "monster_id": "mountain_hunter", "count": {"min": 1, "max": 2} }
+      ]
+    },
+    {
+      "id": "legion_titan_sacred",
+      "faction": "stone_legion",
+      "enemies": [
+        { "monster_id": "mountain_titan", "count": { "min": 1, "max": 1 } }
+      ]
+    },
+
+    {
+      "id": "coven_swamp_prowl",
+      "faction": "bog_coven",
+      "enemies": [
+        { "monster_id": "bog_serpent", "count": { "min": 2, "max": 3 } },
+        { "monster_id": "marsh_witch", "count": { "min": 1, "max": 1 } }
+      ]
+    },
+    {
+      "id": "coven_elemental_circle",
+      "faction": "bog_coven",
+      "enemies": [
+        { "monster_id": "mire_elemental", "count": { "min": 1, "max": 1 } },
+        { "monster_id": "marsh_witch", "count": { "min": 1, "max": 2 } }
+      ]
+    },
+    {
+      "id": "coven_reed_queen",
+      "faction": "bog_coven",
+      "enemies": [
+        { "monster_id": "queen_of_reeds", "count": { "min": 1, "max": 1 } }
+      ]
+    }
+  ]
+}

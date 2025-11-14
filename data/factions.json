@@ -1,0 +1,181 @@
+{
+  "schema": "factions.v1",
+  "factions": [
+    {
+      "id": "wild_beasts",
+      "name": "Wild Beasts",
+      "weight_modifiers": {
+        "biomes": {
+          "grassland": 1.4,
+          "temperate_forest": 1.6,
+          "mountain": 1.1,
+          "wetlands": 1.2
+        },
+        "slots": {
+          "entrance": 1.2,
+          "setback": 1.3
+        }
+      }
+    },
+    {
+      "id": "goblin_clan",
+      "name": "Goblin Clan",
+      "weight_modifiers": {
+        "biomes": {
+          "temperate_forest": 1.6,
+          "grassland": 1.3,
+          "wetlands": 1.2
+        },
+        "slots": {
+          "setback": 1.4,
+          "aftermath": 1.1
+        }
+      }
+    },
+    {
+      "id": "orc_war_tribe",
+      "name": "Orc War Tribe",
+      "weight_modifiers": {
+        "biomes": {
+          "highland": 1.7,
+          "mountain": 1.5,
+          "grassland": 1.2
+        },
+        "slots": {
+          "setback": 1.5,
+          "climax": 1.6
+        }
+      }
+    },
+    {
+      "id": "undying_host",
+      "name": "Undying Host",
+      "weight_modifiers": {
+        "biomes": {
+          "desert": 1.4,
+          "highland": 1.2,
+          "wetlands": 1.1
+        },
+        "slots": {
+          "climax": 1.8,
+          "aftermath": 1.3
+        }
+      }
+    },
+    {
+      "id": "roadside_bandits",
+      "name": "Roadside Bandits",
+      "weight_modifiers": {
+        "biomes": {
+          "grassland": 1.4,
+          "temperate_forest": 1.3
+        },
+        "slots": {
+          "entrance": 1.3,
+          "setback": 1.4
+        }
+      }
+    },
+    {
+      "id": "drowned_cult",
+      "name": "Drowned Cult",
+      "weight_modifiers": {
+        "biomes": {
+          "ocean": 1.5,
+          "deep_ocean": 1.7,
+          "beach": 1.3
+        },
+        "slots": {
+          "puzzle": 1.5,
+          "climax": 1.4
+        }
+      }
+    },
+    {
+      "id": "tidespawn",
+      "name": "Tidespawn",
+      "weight_modifiers": {
+        "biomes": {
+          "deep_ocean": 2.0,
+          "ocean": 1.4,
+          "beach": 1.1
+        },
+        "slots": {
+          "setback": 1.4,
+          "climax": 1.7
+        }
+      }
+    },
+    {
+      "id": "desert_reavers",
+      "name": "Desert Reavers",
+      "weight_modifiers": {
+        "biomes": {
+          "desert": 2.0,
+          "highland": 1.1
+        },
+        "slots": {
+          "entrance": 1.4,
+          "setback": 1.5
+        }
+      }
+    },
+    {
+      "id": "stone_legion",
+      "name": "Stone Legion",
+      "weight_modifiers": {
+        "biomes": {
+          "mountain": 1.8,
+          "highland": 1.6
+        },
+        "slots": {
+          "setback": 1.5,
+          "climax": 1.8
+        }
+      }
+    },
+    {
+      "id": "bog_coven",
+      "name": "Bog Coven",
+      "weight_modifiers": {
+        "biomes": {
+          "wetlands": 2.0,
+          "temperate_forest": 1.2
+        },
+        "slots": {
+          "puzzle": 1.5,
+          "aftermath": 1.4
+        }
+      }
+    },
+    {
+      "id": "undying_host",
+      "name": "Undying Host",
+      "weight_modifiers": {
+        "biomes": {
+          "desert": 1.4,
+          "highland": 1.2,
+          "wetlands": 1.1
+        },
+        "slots": {
+          "climax": 1.8,
+          "aftermath": 1.3
+        }
+      }
+    },
+    {
+      "id": "roadside_bandits",
+      "name": "Roadside Bandits",
+      "weight_modifiers": {
+        "biomes": {
+          "grassland": 1.4,
+          "temperate_forest": 1.3
+        },
+        "slots": {
+          "entrance": 1.3,
+          "setback": 1.4
+        }
+      }
+    }
+  ]
+}

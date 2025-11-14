@@ -1,0 +1,117 @@
+{
+  "schema": "social.tables.v1",
+  "entries": [
+    {
+      "id": "forest_bandit_negotiation",
+      "biomes": ["temperate_forest","grassland"],
+      "slots": ["entrance"],
+      "min_level": 1,
+      "max_level": 8,
+      "weight": 1.4,
+      "tags": ["negotiation","threat"],
+      "environment_tags": ["cover"],
+      "award_loot": false,
+      "notes": "Bandits demand tribute; clever talk can avoid a fight."
+    },
+    {
+      "id": "forest_spirit_bargain",
+      "biomes": ["temperate_forest"],
+      "slots": ["aftermath"],
+      "min_level": 2,
+      "max_level": 12,
+      "weight": 1.1,
+      "tags": ["fey","deal"],
+      "environment_tags": ["clearing"],
+      "award_loot": true,
+      "loot_rolls": 1,
+      "notes": "A minor forest spirit bargains for a favor or gift."
+    },
+    {
+      "id": "wetlands_hermit_exchange",
+      "biomes": ["wetlands"],
+      "slots": ["entrance","aftermath"],
+      "min_level": 1,
+      "max_level": 10,
+      "weight": 1.2,
+      "tags": ["ally","lore"],
+      "environment_tags": ["marsh"],
+      "award_loot": true,
+      "loot_rolls": 1,
+      "notes": "A reclusive hermit trades information about swamp dangers."
+    },
+    {
+      "id": "wetlands_coven_parley",
+      "biomes": ["wetlands"],
+      "slots": ["setback"],
+      "min_level": 4,
+      "max_level": 16,
+      "weight": 1.0,
+      "tags": ["parley","enemy_leader"],
+      "environment_tags": ["fog"],
+      "award_loot": false,
+      "notes": "A coven emissary offers a dangerous deal or curse removal."
+    },
+    {
+      "id": "grassland_nomad_diplomacy",
+      "biomes": ["grassland"],
+      "slots": ["entrance","setback"],
+      "min_level": 3,
+      "max_level": 14,
+      "weight": 1.3,
+      "tags": ["diplomacy","travelers"],
+      "environment_tags": ["open_field"],
+      "award_loot": true,
+      "loot_rolls": 1,
+      "notes": "Nomadic riders propose trade or request aid."
+    },
+    {
+      "id": "mountain_shaman_consultation",
+      "biomes": ["mountain","highland"],
+      "slots": ["aftermath"],
+      "min_level": 5,
+      "max_level": 20,
+      "weight": 1.0,
+      "tags": ["sage","prophecy"],
+      "environment_tags": ["peak"],
+      "award_loot": false,
+      "notes": "A mountain shaman offers cryptic visions or warnings."
+    },
+    {
+      "id": "desert_caravan_bargain",
+      "biomes": ["desert"],
+      "slots": ["entrance","setback"],
+      "min_level": 2,
+      "max_level": 15,
+      "weight": 1.4,
+      "tags": ["trade","negotiation"],
+      "environment_tags": ["dunes"],
+      "award_loot": true,
+      "loot_rolls": 1,
+      "notes": "A desert caravan trades rare supplies or asks for escort."
+    },
+    {
+      "id": "ocean_sailor_gossip",
+      "biomes": ["ocean","beach"],
+      "slots": ["entrance","aftermath"],
+      "min_level": 1,
+      "max_level": 12,
+      "weight": 1.3,
+      "tags": ["rumor","downtime"],
+      "environment_tags": ["shore"],
+      "award_loot": false,
+      "notes": "Travelers spread rumors about sea monsters or cult activity."
+    },
+    {
+      "id": "deep_ocean_siren_parley",
+      "biomes": ["deep_ocean"],
+      "slots": ["setback"],
+      "min_level": 6,
+      "max_level": 20,
+      "weight": 0.8,
+      "tags": ["charm","danger"],
+      "environment_tags": ["depths"],
+      "award_loot": false,
+      "notes": "A siren attempts a dangerous negotiation with emotional manipulation."
+    }
+  ]
+}

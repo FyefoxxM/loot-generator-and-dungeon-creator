@@ -1,0 +1,64 @@
+{
+  "schema": "monsters.v1",
+  "monsters": [
+    { "id": "wolf", "name": "Wolf", "cr": 0.25, "faction": "wild_beasts", "tags": ["beast","pack"] },
+    { "id": "dire_wolf", "name": "Dire Wolf", "cr": 1, "faction": "wild_beasts", "tags": ["beast","pack","elite"] },
+    { "id": "giant_bear", "name": "Giant Bear", "cr": 3, "faction": "wild_beasts", "tags": ["beast","brute"] },
+    { "id": "hawk_swarm", "name": "Hawk Swarm", "cr": 1, "faction": "wild_beasts", "tags": ["beast","flying"] },
+    { "id": "alpha_predator", "name": "Alpha Predator", "cr": 6, "faction": "wild_beasts", "tags": ["beast","apex"] },
+
+    { "id": "goblin", "name": "Goblin", "cr": 0.25, "faction": "goblin_clan", "tags": ["humanoid","sneaky"] },
+    { "id": "goblin_hunter", "name": "Goblin Hunter", "cr": 1, "faction": "goblin_clan", "tags": ["humanoid","ranged"] },
+    { "id": "goblin_brutal", "name": "Goblin Bruiser", "cr": 2, "faction": "goblin_clan", "tags": ["humanoid","brute"] },
+    { "id": "goblin_shaman", "name": "Goblin Shaman", "cr": 3, "faction": "goblin_clan", "tags": ["humanoid","caster"] },
+    { "id": "goblin_warlord", "name": "Goblin Warlord", "cr": 5, "faction": "goblin_clan", "tags": ["humanoid","leader"] },
+
+    { "id": "orc_raider", "name": "Orc Raider", "cr": 0.5, "faction": "orc_war_tribe", "tags": ["humanoid","aggressive"] },
+    { "id": "orc_grunt", "name": "Orc Grunt", "cr": 1, "faction": "orc_war_tribe", "tags": ["humanoid","brute"] },
+    { "id": "orc_berserker", "name": "Orc Berserker", "cr": 2, "faction": "orc_war_tribe", "tags": ["humanoid","frenzy"] },
+    { "id": "orc_warmage", "name": "Orc Warmage", "cr": 4, "faction": "orc_war_tribe", "tags": ["humanoid","caster"] },
+    { "id": "orc_warchief", "name": "Orc Warchief", "cr": 7, "faction": "orc_war_tribe", "tags": ["humanoid","leader"] },
+
+    { "id": "skeleton", "name": "Skeleton", "cr": 0.25, "faction": "undying_host", "tags": ["undead","minion"] },
+    { "id": "zombie", "name": "Zombie", "cr": 0.25, "faction": "undying_host", "tags": ["undead","slow"] },
+    { "id": "ghoul", "name": "Ghoul", "cr": 1, "faction": "undying_host", "tags": ["undead","feral"] },
+    { "id": "wight", "name": "Wight", "cr": 3, "faction": "undying_host", "tags": ["undead","elite"] },
+    { "id": "bone_knight", "name": "Bone Knight", "cr": 6, "faction": "undying_host", "tags": ["undead","mounted"] },
+
+    { "id": "bandit", "name": "Bandit", "cr": 0.25, "faction": "roadside_bandits", "tags": ["humanoid","raider"] },
+    { "id": "bandit_skirmisher", "name": "Bandit Skirmisher", "cr": 1, "faction": "roadside_bandits", "tags": ["humanoid","ranged"] },
+    { "id": "bandit_enforcer", "name": "Bandit Enforcer", "cr": 2, "faction": "roadside_bandits", "tags": ["humanoid","brute"] },
+    { "id": "bandit_pyro", "name": "Bandit Pyromaniac", "cr": 3, "faction": "roadside_bandits", "tags": ["humanoid","hazard"] },
+    { "id": "bandit_captain", "name": "Bandit Captain", "cr": 4, "faction": "roadside_bandits", "tags": ["humanoid","leader"] },
+
+    { "id": "cult_acolyte", "name": "Cult Acolyte", "cr": 0.5, "faction": "drowned_cult", "tags": ["humanoid","caster"] },
+    { "id": "cult_follower", "name": "Cult Follower", "cr": 1, "faction": "drowned_cult", "tags": ["humanoid","zealot"] },
+    { "id": "cult_blade", "name": "Cult Blade", "cr": 2, "faction": "drowned_cult", "tags": ["humanoid","assassin"] },
+    { "id": "cult_mystic", "name": "Cult Mystic", "cr": 4, "faction": "drowned_cult", "tags": ["humanoid","caster"] },
+    { "id": "cult_prophet", "name": "Cult Prophet", "cr": 7, "faction": "drowned_cult", "tags": ["humanoid","leader"] },
+
+    { "id": "reef_serpent", "name": "Reef Serpent", "cr": 2, "faction": "tidespawn", "tags": ["beast","aquatic"] },
+    { "id": "deep_siren", "name": "Deep Siren", "cr": 4, "faction": "tidespawn", "tags": ["aquatic","charm"] },
+    { "id": "krill_swarm", "name": "Krill Swarm", "cr": 1, "faction": "tidespawn", "tags": ["aquatic","swarm"] },
+    { "id": "tide_horror", "name": "Tide Horror", "cr": 6, "faction": "tidespawn", "tags": ["aquatic","aberration"] },
+    { "id": "leviathan_spawn", "name": "Leviathan Spawn", "cr": 10, "faction": "tidespawn", "tags": ["aquatic","elite"] },
+
+    { "id": "sand_stalker", "name": "Sand Stalker", "cr": 1, "faction": "desert_reavers", "tags": ["beast","burrow"] },
+    { "id": "dune_raider", "name": "Dune Raider", "cr": 2, "faction": "desert_reavers", "tags": ["humanoid","mounted"] },
+    { "id": "glass_scorpion", "name": "Glass Scorpion", "cr": 3, "faction": "desert_reavers", "tags": ["beast","poison"] },
+    { "id": "sand_mystic", "name": "Sand Mystic", "cr": 5, "faction": "desert_reavers", "tags": ["humanoid","caster"] },
+    { "id": "sand_tyrant", "name": "Sand Tyrant", "cr": 9, "faction": "desert_reavers", "tags": ["beast","elite"] },
+
+    { "id": "avalanche_ogre", "name": "Avalanche Ogre", "cr": 4, "faction": "stone_legion", "tags": ["giant","brute"] },
+    { "id": "mountain_hunter", "name": "Mountain Hunter", "cr": 2, "faction": "stone_legion", "tags": ["humanoid","ranged"] },
+    { "id": "rock_sentinel", "name": "Rock Sentinel", "cr": 5, "faction": "stone_legion", "tags": ["construct","guardian"] },
+    { "id": "peak_shaman", "name": "Peak Shaman", "cr": 6, "faction": "stone_legion", "tags": ["humanoid","caster"] },
+    { "id": "mountain_titan", "name": "Mountain Titan", "cr": 10, "faction": "stone_legion", "tags": ["giant","elite"] },
+
+    { "id": "marsh_witch", "name": "Marsh Witch", "cr": 3, "faction": "bog_coven", "tags": ["humanoid","caster"] },
+    { "id": "swamp_hag", "name": "Swamp Hag", "cr": 5, "faction": "bog_coven", "tags": ["humanoid","corruption"] },
+    { "id": "bog_serpent", "name": "Bog Serpent", "cr": 2, "faction": "bog_coven", "tags": ["beast","aquatic"] },
+    { "id": "mire_elemental", "name": "Mire Elemental", "cr": 7, "faction": "bog_coven", "tags": ["elemental","swamp"] },
+    { "id": "queen_of_reeds", "name": "Queen of Reeds", "cr": 10, "faction": "bog_coven", "tags": ["fey","elite"] }
+  ]
+}

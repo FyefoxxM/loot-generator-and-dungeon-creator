@@ -1,0 +1,56 @@
+{
+  "schema": "loot.v1",
+  "coin_values_gp": {
+    "cp": 0.01,
+    "sp": 0.1,
+    "ep": 0.5,
+    "gp": 1.0,
+    "pp": 10.0
+  },
+  "level_budgets_gp": {
+    "1": 100,
+    "2": 150,
+    "3": 250,
+    "4": 350,
+    "5": 500,
+    "6": 650,
+    "7": 800,
+    "8": 1000,
+    "9": 1200,
+    "10": 1500,
+    "11": 1800,
+    "12": 2200,
+    "13": 2600,
+    "14": 3200,
+    "15": 3800,
+    "16": 4500,
+    "17": 5200,
+    "18": 6000,
+    "19": 6800,
+    "20": 7600
+  },
+  "magic_items": [
+    { "id": "potion_healing", "name": "Potion of Healing", "rarity": "common", "min_level": 1, "max_level": 20, "gp_value": 50, "weight": 4 },
+    { "id": "potion_greater_healing", "name": "Potion of Greater Healing", "rarity": "uncommon", "min_level": 5, "max_level": 20, "gp_value": 150, "weight": 3 },
+    { "id": "scroll_low", "name": "Minor Spell Scroll", "rarity": "common", "min_level": 1, "max_level": 10, "gp_value": 75, "weight": 3 },
+    { "id": "scroll_mid", "name": "Intermediate Spell Scroll", "rarity": "uncommon", "min_level": 5, "max_level": 20, "gp_value": 250, "weight": 2 },
+    { "id": "cloak_protection", "name": "Cloak of Protection", "rarity": "uncommon", "min_level": 4, "max_level": 20, "gp_value": 400, "weight": 1 },
+    { "id": "weapon_plus_one", "name": "+1 Weapon", "rarity": "uncommon", "min_level": 5, "max_level": 20, "gp_value": 1000, "weight": 1 },
+    { "id": "ring_swimming", "name": "Ring of Swimming", "rarity": "uncommon", "min_level": 3, "max_level": 20, "gp_value": 300, "weight": 2 },
+    { "id": "trident_tidecaller", "name": "Tidecaller’s Trident", "rarity": "rare", "min_level": 8, "max_level": 20, "gp_value": 2500, "weight": 1 },
+    { "id": "sandstone_amulet", "name": "Amulet of Sandstride", "rarity": "rare", "min_level": 10, "max_level": 20, "gp_value": 3000, "weight": 1 },
+    { "id": "mountain_heart_gem", "name": "Mountain Heart Gem", "rarity": "rare", "min_level": 12, "max_level": 20, "gp_value": 4000, "weight": 1 }
+  ],
+  "mundane_goods": [
+    { "id": "coin_purse_small", "name": "Small Coin Purse", "gp_value": 25, "weight": 4 },
+    { "id": "coin_purse_medium", "name": "Medium Coin Purse", "gp_value": 75, "weight": 3 },
+    { "id": "coin_purse_large", "name": "Large Coin Purse", "gp_value": 150, "weight": 2 },
+    { "id": "trade_gems_small", "name": "Bag of Trade Gems", "gp_value": 200, "weight": 2 },
+    { "id": "art_small_statue", "name": "Small Decorative Statue", "gp_value": 100, "weight": 1 },
+    { "id": "art_silver_vase", "name": "Silver Vase", "gp_value": 250, "weight": 2 },
+    { "id": "desert_spice_crate", "name": "Crate of Rare Desert Spices", "gp_value": 300, "weight": 1 },
+    { "id": "forest_herbs_bundle", "name": "Bundle of Rare Forest Herbs", "gp_value": 80, "weight": 3 },
+    { "id": "mountain_ore_chunk", "name": "Chunk of Precious Ore", "gp_value": 180, "weight": 2 },
+    { "id": "wetlands_medicinal_reed", "name": "Medicinal Reed Bundle", "gp_value": 60, "weight": 3 }
+  ]
+}

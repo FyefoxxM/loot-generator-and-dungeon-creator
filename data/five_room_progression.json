@@ -1,0 +1,17 @@
+{
+  "schema": "five.room.progression.v1",
+  "default_order": [
+    "entrance",
+    "puzzle",
+    "setback",
+    "climax",
+    "aftermath"
+  ],
+  "slots": {
+    "entrance": { "difficulty_delta": 0 },
+    "puzzle": { "difficulty_delta": 0 },
+    "setback": { "difficulty_delta": 1 },
+    "climax": { "difficulty_delta": 2 },
+    "aftermath": { "difficulty_delta": -1 }
+  }
+}

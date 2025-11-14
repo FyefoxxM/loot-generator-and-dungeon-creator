@@ -1,0 +1,148 @@
+{
+  "schema": "encounter.types.v1",
+  "tables": [
+    {
+      "id": "ocean_general",
+      "biomes": ["ocean"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 6, "type": "exploration" },
+        { "min": 7, "max": 11, "type": "puzzle" },
+        { "min": 12, "max": 15, "type": "social" },
+        { "min": 16, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "deep_ocean_general",
+      "biomes": ["deep_ocean"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 5, "type": "exploration" },
+        { "min": 6, "max": 10, "type": "puzzle" },
+        { "min": 11, "max": 13, "type": "social" },
+        { "min": 14, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "beach_general",
+      "biomes": ["beach"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 7, "type": "exploration" },
+        { "min": 8, "max": 12, "type": "social" },
+        { "min": 13, "max": 16, "type": "puzzle" },
+        { "min": 17, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "grassland_general",
+      "biomes": ["grassland"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 8, "type": "exploration" },
+        { "min": 9, "max": 12, "type": "puzzle" },
+        { "min": 13, "max": 15, "type": "social" },
+        { "min": 16, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "temperate_forest_general",
+      "biomes": ["temperate_forest"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 6, "type": "exploration" },
+        { "min": 7, "max": 10, "type": "puzzle" },
+        { "min": 11, "max": 14, "type": "social" },
+        { "min": 15, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "wetlands_general",
+      "biomes": ["wetlands"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 5, "type": "exploration" },
+        { "min": 6, "max": 11, "type": "puzzle" },
+        { "min": 12, "max": 14, "type": "social" },
+        { "min": 15, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "desert_general",
+      "biomes": ["desert"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 7, "type": "exploration" },
+        { "min": 8, "max": 11, "type": "puzzle" },
+        { "min": 12, "max": 14, "type": "social" },
+        { "min": 15, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "highland_general",
+      "biomes": ["highland"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 6, "type": "exploration" },
+        { "min": 7, "max": 10, "type": "puzzle" },
+        { "min": 11, "max": 13, "type": "social" },
+        { "min": 14, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "mountain_general",
+      "biomes": ["mountain"],
+      "slots": ["entrance", "setback", "aftermath"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 5, "type": "exploration" },
+        { "min": 6, "max": 9, "type": "puzzle" },
+        { "min": 10, "max": 13, "type": "social" },
+        { "min": 14, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "generic_any",
+      "biomes": ["any"],
+      "slots": ["any"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 6, "type": "exploration" },
+        { "min": 7, "max": 10, "type": "puzzle" },
+        { "min": 11, "max": 14, "type": "social" },
+        { "min": 15, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "climax_combat_heavy",
+      "biomes": ["any"],
+      "slots": ["climax"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 2, "type": "puzzle" },
+        { "min": 3, "max": 4, "type": "social" },
+        { "min": 5, "max": 20, "type": "combat" }
+      ]
+    },
+    {
+      "id": "puzzle_slot_default",
+      "biomes": ["any"],
+      "slots": ["puzzle"],
+      "die": 20,
+      "rows": [
+        { "min": 1, "max": 4, "type": "exploration" },
+        { "min": 5, "max": 14, "type": "puzzle" },
+        { "min": 15, "max": 17, "type": "social" },
+        { "min": 18, "max": 20, "type": "combat" }
+      ]
+    }
+  ]
+}
